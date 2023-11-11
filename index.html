@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Banho de lua, banho de hidratação, banho de argila">
-    <meta name="description" content="Página web destinada a estética de pele">
+    <meta name="keywords" content="Cuidadora de idosos, cuidador de idosos">
+    <meta name="description" content="Página web destinada captação de clientes do serviço de cuidadora">
     <meta name="author" content="Caique Souza Fonseca">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ff433733b2.js" crossorigin="anonymous"></script>
-    <title>Vanda -Beleza, banho e estética</title>
+    <title>Vanda - Cuidadora de Idosos</title>
 </head>
 <body>
     
@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <span><i class="fa-brands fa-instagram-square"></i></span>
+                            <span><i class="fa-brands fa-instagram-square "></i></span>
                         </a>
                     </li>
 
@@ -133,10 +133,26 @@
 
                 <p class="text">
                     Para contratar um dos meus serviços,
-                    <a href="#contrate">Clique aqui</a>
+                    <a href="#form">Preencha o formulário abaixo:</a>
                 </p>
             
             </section>
+
+            <form action="/postform/enviado.html" method="post" id="form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+          
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+          
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+          
+                <button type="submit">Enviar Mensagem</button>
+            </form>
     </div>
 
     <div class="rodape">
