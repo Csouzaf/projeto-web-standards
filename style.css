@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 239);
+    background-color: rgba(255, 255, 239, 0.132);
     height: 300vh;
     overflow-x: hidden;
 }
@@ -91,34 +91,83 @@ main h1{
 .content{
 
     margin-top: 45rem;
-    padding: 0 13rem;
+    padding: 0 10rem;
    
 }
 
-.sobre{
-    font-size: 1.2em;
- 
+#sobre{
+    color: black;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    
 }
 
-.content .sobre p{
-    font-size: .8em;
-    padding: 10px 0;
+#depoimentos{
+    color: black;
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
 }
 
-.contrate{
+.testemunhas {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+}
+
+.testemunhas p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.client-info {
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+}
+
+.content p{
+    font-size: 1.5em;
+}
+
+.text{
+    margin-top: 1rem;
+}
+
+h3{
     font-size: 1.2em;
 }
 
-.clientes{
-    font-size: 1.2em;
+#contrate{
+    color: black;
+    font-weight: bold;
+    margin-top: 5rem;
+    font-size: 2.5em;
+    margin-bottom: 1rem;
 }
+
 
 .rodape{
 
-    position: relative;
+    /* position: relative;
     height: 110px;
     width: 100vw;
-    background-color: #848484;
-    margin-top: 100rem;
+    background-color: #848484; */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+    margin-top: 10rem;
     
+}
+.item-address{
+    font-weight: bold;
+}
+
+.email{
+    font-weight: bold;
 }
