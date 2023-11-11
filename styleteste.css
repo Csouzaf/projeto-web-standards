@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+header .content-header{
+
+    display: flex;
+   
+    
+}
+header .nav-bar{
+    
+    margin: 20px;
+    flex: 1;   
+    
+
+}
+
+h1{
+   text-align: center;
+   margin-top: 20px;
+}
+
+header .inicial{
+    display: flex;
+    justify-content:space-evenly;
+    
+    
+    
+}
+
+main{
+    margin: 0rem 10rem;
+}
+main h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+section figure{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+section img{
+    height: 15%;
+    width: 15%;
+    display: flex;
+   }
+
+   #long {
+margin: 5px 50px 5px 50px;
+text-align: center;
+   }
+
+   #ftBigode1 {
+    margin: 70px 0px 0px 0px;
+    text-align: justify;
+   }
+
+   #legendaFt1 {
+    text-align: center;
+    margin-top: 20px;
+   }
