@@ -68,14 +68,7 @@ header .icon:hover{
     display: flex;
     justify-content: center;
 }
-.perfil img{
-/*     
-    border-radius: 40px;
-    background-size: cover;
-    position: relative;
-    top: 1rem; */
-   
-}
+
 
 main h1{
     position: relative;
@@ -198,3 +191,67 @@ form {
 .email{
     font-weight: bold;
 }
+
+/* Responsividade: */
+
+/* ... (seu código existente) ... */
+
+@media only screen and (max-width: 768px) {
+    .content {
+        padding: 0 1rem;
+    }
+
+    main h1 {
+        font-size: 2.5em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    .testemunhas {
+        padding: 10px;
+    }
+
+    #contrate, #depoimentos, #sobre {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main h1 {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    .testemunhas {
+        padding: 10px;
+    }
+
+    #contrate, #depoimentos, #sobre {
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    main h1 {
+        font-size: 1.8em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .testemunhas {
+        padding: 10px;
+    }
+
+    #contrate, #depoimentos, #sobre {
+        font-size: 1.5em;
+    }
+}
+
+/* ... (seu código existente) ... */
